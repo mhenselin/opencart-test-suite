@@ -10,6 +10,13 @@
         "homepage" : "http://www.beyondit.at",
         "role" : "Developer"
     }],
+    "repositories": [
+        {
+          "name": "beyondit/opencart-extension-installer",
+            "type": "vcs",
+            "url": "https://github.com/mhenselin/opencart-extension-installer.git"
+        }
+    ],
     "require" : {
         "php" : ">=5.4",
         "phpunit/phpunit" : "^6.2",
